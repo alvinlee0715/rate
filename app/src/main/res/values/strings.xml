@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">rate</string>
+    <string name="rate">rate</string>
+    <string name="rate_desc">rate_desc</string>
+    <string name="feedback">feedback</string>
+    <string name="submit_button">submit_button</string>
+</resources>
