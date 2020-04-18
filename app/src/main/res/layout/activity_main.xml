@@ -37,53 +37,50 @@
             android:id="@+id/ratingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
             android:layout_marginTop="40dp"
             android:numStars="5"
             tools:layout_marginStart="90dp" />
-        <!--
-                <EditText
-                    android:layout_width="370dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="30dp"
-                    android:gravity="center_horizontal"
-                    android:hint="@string/feedback"
-                    android:inputType="textMultiLine"
-                    android:importantForAutofill="no"
-                    android:layout_marginStart="20dp" />-->
+
         <EditText
             android:id="@+id/recipientEt"
-            android:layout_width="match_parent"
+            android:layout_width="370dp"
             android:layout_height="wrap_content"
-            android:hint="Recipient email(s)"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:hint="Recipient email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
-                     />
+            android:autofillHints="alvin0715@hotmail.com"/>
 
-                <!--EditText: Input the subject of email-->
         <EditText
             android:id="@+id/subjectEt"
-            android:layout_width="match_parent"
+            android:layout_width="370dp"
             android:layout_height="wrap_content"
             android:hint="Subject"
-            android:layout_marginTop="2dp"
-            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
             android:inputType="text|textCapSentences"
-            android:padding="10dp"
-            android:autofillHints="" />
+            android:padding="10dp"/>
 
         <!--EditText: Input the message-->
         <EditText
             android:id="@+id/messageEt"
-            android:layout_width="match_parent"
+            android:layout_width="370dp"
             android:layout_height="wrap_content"
-            android:gravity="start"
-            android:hint="Enter message here..."
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:hint="Feedback..."
             android:inputType="text|textCapSentences"
             android:minHeight="150dp"
-            android:padding="10dp"
-            android:autofillHints="" />
+            android:padding="10dp"/>
 
         <Button
             android:id="@+id/submit_button"
@@ -92,7 +89,7 @@
             android:layout_marginLeft="150dp"
             android:layout_marginTop="70dp"
             android:background="@android:drawable/screen_background_dark_transparent"
-            android:text="@string/submit_button"
+            android:text="@string/button"
             android:textColor="@android:color/white"
             android:textSize="16sp"
             android:textStyle="bold"
